@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition Calculator</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🍎 Nutrition Calculator</h1>
+
+<div class="search-box">
+
+<input
+type="text"
+id="search"
+placeholder="Search Food...">
+
+<input
+type="number"
+id="qty"
+placeholder="Quantity (Gram or Piece)">
+
+<button id="addBtn">
+Add Food
+</button>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Food</th>
+<th>Qty</th>
+<th>Calories</th>
+<th>Protein</th>
+<th>Fat</th>
+<th>Carbs</th>
+</tr>
+
+</thead>
+
+<tbody id="tableBody">
+
+</tbody>
+
+</table>
+
+<div class="total">
+
+<h2>Today's Total</h2>
+
+<p>🔥 Calories :
+<span id="calories">
+0
+</span>
+kcal</p>
+
+<p>💪 Protein :
+<span id="protein">
+0
+</span>
+g</p>
+
+<p>🥑 Fat :
+<span id="fat">
+0
+</span>
+g</p>
+
+<p>🍚 Carbs :
+<span id="carbs">
+0
+</span>
+g</p>
+
+</div>
+
+</div>
+
+<script src="foods.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
